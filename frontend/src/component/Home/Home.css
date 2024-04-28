@@ -1,5 +1,5 @@
 .banner {
-  background-image: url("../../images/cover.jfif");
+  background-image: url("../../images/Screenshot\ \(562\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,6 +58,7 @@
   width: 20vmax;
   padding: 1vmax;
   margin: 5vmax auto;
+ 
   color: rgb(0, 0, 0, 0.7);
 }
 
@@ -135,4 +136,11 @@
     margin: 0 0.5vmax;
     font: 300 1vmax "Roboto";
   }
+}
+
+.location{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 300 1vmax "Roboto";
 }

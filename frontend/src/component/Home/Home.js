@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from "react";
-import { CgMouse } from "react-icons/all";
+import { CgMouse } from "react-icons/cg";
 import "./Home.css";
 import ProductCard from "./ProductCard.js";
 import MetaData from "../layout/MetaData";
@@ -27,11 +27,12 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title="ECOMMERCE" />
+          <MetaData title="FINDERBY" />
 
           <div className="banner">
-            <p>Welcome to Ecommerce</p>
-            <h1>FIND AMAZING PRODUCTS BELOW</h1>
+            <p>Welcome to Finderby</p>
+            <h1>FIND AMAZING PRODUCTS AT BEST RATES</h1>
+            {/* <p>Find Shops Nearyby</p> */}
 
             <a href="#container">
               <button>
@@ -40,7 +41,8 @@ const Home = () => {
             </a>
           </div>
 
-          <h2 className="homeHeading">Featured Products</h2>
+          <h2 className="homeHeading">Featured Shops</h2>
+          <p className = "location">Gokhle Nagar, Pune</p>
 
           <div className="container" id="container">
             {products &&
